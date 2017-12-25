@@ -14,18 +14,19 @@ class SortEstimate:
 
 	def binarySearch(self, c, time):
 		constant = float(time)/float(c)
-		temp_array = range(1, int(constant))
+		#temp_array = range(1, int(constant))
 		low = 0
-		high = len(temp_array)
+		#high = len(temp_array)
+		high = int(constant)
 		while low < high:
 			mid = low +  (high - low)/2
-			if self.equality_condition(temp_array[mid], constant):
+			if self.equality_condition(mid, constant):
 				#True 
 				high = mid 
 			else:
 				low = mid + 1 
-		if self.equality_condition(temp_array[low], constant):
-			return temp_array[low]
+		if self.equality_condition(low, constant):
+			return low
 		else:
 			return -1 
 
@@ -40,4 +41,4 @@ if __name__ == '__main__':
 	print bs.binarySearch(1, 8)
 	print bs.binarySearch(2, 16)
 	print bs.binarySearch(37, 12392342)
-	#print bs.binarySearch(1, 2000000000)
+	print bs.binarySearch(1, 2000000000)
