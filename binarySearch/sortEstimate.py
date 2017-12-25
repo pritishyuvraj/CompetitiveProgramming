@@ -1,6 +1,8 @@
 #TopCoder
 #Question: https://community.topcoder.com/stat?c=problem_statement&pm=3561&rd=6519
 #Question Name: Sort Estimate SortEstimate sortEstimate
+
+#Solution: Time Complexity: O(log N), Space Complexity: O(1)
 import math 
 
 class SortEstimate:
