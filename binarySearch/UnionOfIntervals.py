@@ -2,6 +2,8 @@
 #Question ID: UnionOfIntervals
 #Link: https://community.topcoder.com/stat?c=problem_statement&pm=4823&rd=8074
 
+#Solution: O(n) {Assuming the intervals passed are sorted or O (n log n)}
+#Author: Pritish Yuvraj
 class UnionOfIntervals:
 	def __init__(self):
 		self.stack = []

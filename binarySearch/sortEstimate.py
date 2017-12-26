@@ -3,6 +3,7 @@
 #Question Name: Sort Estimate SortEstimate sortEstimate
 
 #Solution: Time Complexity: O(log N), Space Complexity: O(1)
+#Author: Pritish Yuvraj
 import math 
 
 class SortEstimate:
