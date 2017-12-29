@@ -1,4 +1,4 @@
-#Question: TopCoder Statisticsc (Top Coder Statistics)
+#Question: TopCoder Statistics (Top Coder Statistics)
 #Name: Mortgage
 #Link: https://community.topcoder.com/stat?c=problem_statement&pm=2427&rd=4765
 
