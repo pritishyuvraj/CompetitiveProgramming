@@ -14,7 +14,7 @@ class specialSums:
 		for i in xrange(n):
 			for j in xrange(n):
 				temp_score = self.cal_score(i, j, a, b, n)
-				#print i, j, temp_score
+				print i, j, temp_score
 				if temp_score > max_sum:
 					max_sum = temp_score
 		return max_sum
