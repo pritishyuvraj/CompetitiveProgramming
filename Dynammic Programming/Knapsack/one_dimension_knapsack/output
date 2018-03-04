@@ -1,0 +1,21 @@
+['knapsack.py', 'pepsi:55, detergent:30,chips:25,cereal:15', '4', '100']
+{'detergent': 30, 'chips': 25, 'cereal': 15, 'pepsi': 55}
+
+
+Most optimal solution
+[['detergent', 'pepsi', 'cereal']]
+
+
+All Solution
+[['detergent'],
+ ['detergent', 'chips'],
+ ['detergent', 'chips', 'cereal'],
+ ['detergent', 'cereal'],
+ ['detergent', 'pepsi'],
+ ['chips'],
+ ['chips', 'cereal'],
+ ['chips', 'pepsi', 'cereal'],
+ ['chips', 'pepsi'],
+ ['cereal'],
+ ['pepsi', 'cereal'],
+ ['pepsi']]
