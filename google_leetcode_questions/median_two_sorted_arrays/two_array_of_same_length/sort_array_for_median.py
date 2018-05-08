@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 
 # Approach 1 assuming two arrays are of equal length
-
+# Solution -> O(n)
 # https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
 
 class find_median:
